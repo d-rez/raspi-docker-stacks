@@ -38,7 +38,7 @@ configs:
     file: ./grafana/dashboards/swarmprom-services-dash.json
   alert_manager:
     name: alert_manager-${CONFIG_VERSION:-0}
-    file: ./alertmanager/conf/prod.alertmanager.yml
+    file: ./alertmanager/conf/alertmanager.yml
   blackbox_exporter:
     file: ./blackbox-exporter/blackbox.yml
 
